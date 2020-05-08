@@ -20,3 +20,4 @@ class CreateTables < ActiveRecord::Migration[6.0]
 		end
   end
 end
+
