@@ -18,6 +18,14 @@ class CreateTables < ActiveRecord::Migration[6.0]
 			t.integer :task_id
 			t.timestamps 
 		end
+
+		create_table :users, force: true do |t|
+			t.text :name
+			t.text :email
+			t.text :password
+			t.datetime :created_at
+			t.datetime :updated_at
+		end
   end
 end
 
