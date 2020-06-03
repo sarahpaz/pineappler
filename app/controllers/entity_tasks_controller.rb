@@ -1,0 +1,3 @@
+class EntityTasksController < ApplicationController
+	
+end
